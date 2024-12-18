@@ -27,7 +27,7 @@ func GenerateToken(name string) (string, error) {
 		Name: name,
 		StandardClaims: jwt.StandardClaims{
 			ExpiresAt: time.Now().Add(TokenExpireDuration).Unix(),
-			Issuer:    "blockche",
+			Issuer:    "few",
 		},
 	}
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, c)

@@ -17,7 +17,7 @@
                     <el-button @click="goToRegister">注册</el-button>
                 </el-form-item>
                 <el-form-item>
-                    <el-link href="https://github.com/login/oauth/authorize?client_id=9f837cdc52f3a2edbcc9"
+                    <el-link href="https://github.com/login/oauth/authorize?client_id=Ov23liq8ACAzGUVVD2nv"
                         :underline="false">
                         <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="1.8em" height="1.8em"
                             data-v-6c8d2bba="">
@@ -57,7 +57,6 @@ const onSubmit = async () => {
     } catch (error) {
         console.error(error)
     }
-
 }
 
 const goToRegister = () => {
